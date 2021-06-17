@@ -1,0 +1,15 @@
+sample_test.welcome:
+  path: '/sample-test'
+  defaults:
+    _controller: '\Drupal\sample_test\Controller\CustomController::welcome'
+    _title: 'Welcome to My Module in Drupal 8'
+  requirements: 
+    _permission: 'access content'
+
+sample_test.sample:
+  path: '/sample'
+  defaults:
+    _form: '\Drupal\sample_test\Form\CustomForm'
+    _title: 'Welcome to My Module in Drupal 8'
+  requirements: 
+    _permission: 'access content'

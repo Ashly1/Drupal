@@ -1,0 +1,7 @@
+name: Sample Test
+type: module
+description: 'Sample Test'
+package: Custom
+version: 1.0
+core: 8.x
+core_version_requirement: ^8 || ^9

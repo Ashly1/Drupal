@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\custom_module\Controller;
+namespace Drupal\sample_test\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
