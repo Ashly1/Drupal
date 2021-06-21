@@ -1,0 +1,41 @@
+<?php 
+function custom_module_schema(){
+	$schema['custommodule'] = array(
+    'description' => 'The table for storing data.',
+      	'fields' => array(
+        	'id' => array(
+          		'description' => 'id',
+               'type' => 'serial',
+               'not null' => TRUE,
+               'unsigned' => TRUE,
+          ),
+          'name' => array(
+              'type' => 'varchar',
+              'length' => 30,
+              'not null' => TRUE,
+              'default' => '',
+          ),
+          'email' => array(
+              'type' => 'varchar',
+              'length' => 30,
+              'not null' => TRUE,
+          ),
+          'number' => array(
+              'type' => 'int',
+              'length' => 20,
+              'not null' => TRUE,
+          ),
+       	),
+        'primary key' => array('id'),
+    );
+    return $schema;
+}
+function custom_block_update_7001() {
+   db_change_field('custommodule', 'name', 'name', 
+    array(
+      'type' => 'text',
+      'not null' => FALSE,
+      'size' => 'big',
+    )
+  );
+}
