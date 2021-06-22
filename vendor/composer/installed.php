@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '2444669a6b92614f283acbea960d0777e3eee892',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -177,6 +177,15 @@
       array (
         0 => '8.9.14',
       ),
+    ),
+    'drupal/bootstrap' => 
+    array (
+      'pretty_version' => '3.23.0',
+      'version' => '3.23.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.23',
     ),
     'drupal/breakpoint' => 
     array (
@@ -640,12 +649,12 @@
     ),
     'drupal/legacy-project' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '2444669a6b92614f283acbea960d0777e3eee892',
     ),
     'drupal/link' => 
     array (
